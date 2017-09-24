@@ -1,0 +1,249 @@
+html {
+	background:  #bdc3c7;
+	font-family: "Arial", Arial, sans-serif;
+}
+header {
+	background: #141E30;
+	margin-top= 0px;
+	margin-bottom: 30px;
+	color: #4DA0B0;
+}
+h1 {
+	font-weight: normal;
+	font-size: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+.navbar {
+	text-align: center;
+}
+body {
+  margin-top: 0;
+}
+.slider {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+.options {
+	word-spacing: 60px;
+	font-size: 30px;
+	text-align: center;
+	color: #4DA0B0;
+	text-decoration: none;
+}
+.options:hover {
+	color:#ffffff;
+}
+.perfil {
+	display: block;
+	float: left;
+	margin-left: 100px;
+}
+.lista {
+	float: left;
+	margin-left: 100px;
+	background: #9fc5e9;
+	width: 950px;
+	height: auto;
+	font-size: 120%;
+	border-radius: 25px;
+	text-align: left;
+    border: 2px solid #141E30;	
+    padding-bottom: 10px;
+    margin-right: 100px;
+}
+.lista2 {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.contato {
+	display: inline;
+	float: right;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: -30px;
+	margin-bottom: -10px;
+}
+.contato2 {
+	display: inline;
+	float: right;
+	margin-left: 20px;
+	margin-right: 210px;
+	margin-top: -30px;
+	margin-bottom: -10px;
+}
+.contato3 {
+	display: inline;
+	float: right;
+	margin-left: 20px;
+	margin-right: 270px;
+	margin-top: -30px;
+	margin-bottom: -10px;
+}
+.contato4 {
+	display: inline;
+	float: right;
+	margin-left: 20px;
+	margin-right: 240px;
+	margin-top: -30px;
+	margin-bottom: -10px;
+}
+.lista3 {
+	float: left;
+	margin-left: 100px;
+	margin-bottom: 50px;
+	background: #9fc5e9;
+	width: 1300px;
+	height: auto;
+	font-size: 120%;
+	border-radius: 25px;
+	text-align: left;
+    border: 2px solid #141E30;	
+    padding-bottom: 10px;
+    margin-right: 100px;
+}
+.descricao {
+	display: inline-block;
+	background: #9fc5e9;
+	max-width: 1200;
+	font-size: 120%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	text-align: center;
+    border: 2px solid #141E30;
+}
+.selecionado {
+	color: #ffffff;
+	word-spacing: 60px;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Carla Kim */
+
+.Ccontainer {	
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin-left: 26.5%;
+	margin-top: 40%;
+}
+
+.Ccontainer2 {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin-left: 43.4%;
+	margin-top: -11.8%;
+}
+.Ccontainer3 {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin-left: 60.3%;
+	margin-top: -11.8%;
+}
+.Ccontainer4 {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin-left: 77.2%;
+	margin-top: -11.8%;
+}
+.Cimage {
+  opacity: 1;
+  display: block;
+  width: 180px;
+  height: 180px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.Cmiddle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.Ccontainer:hover .Cimage {
+  opacity: 0.3;
+}
+
+.Ccontainer:hover .Cmiddle {
+  opacity: 1;
+}
+.Ccontainer2:hover .Cimage {
+  opacity: 0.3;
+}
+
+.Ccontainer2:hover .Cmiddle {
+  opacity: 1;
+}
+.Ccontainer3:hover .cimage {
+  opacity: 0.3;
+}
+
+.Ccontainer3:hover .Cmiddle {
+  opacity: 1;
+}
+.Ccontainer4:hover .Cimage {
+  opacity: 0.3;
+}
+
+.Ccontainer4:hover .Cmiddle {
+  opacity: 1;
+}
+.Ctext {
+  text-align: center;
+  background-color: #9fc5e9;
+  color: #141E30;
+  font-size: 16px;
+  width: 100%;
+  height: 40%;
+  padding: 12px 5px;
+}
+
+.Cprojeto1 {	
+    position: relative;
+    width: 30%;
+    height: 30%;
+    margin-left: 15%;
+	margin-top: 5%;
+}
+.Cimage1 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.Cmiddle1 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.Cprojeto1:hover .Cimage1 {
+  opacity: 0.3;
+}
+
+.Cprojeto1:hover .Cmiddle1 {
+  opacity: 1;
+}
+ /* Alexandre Edington*/
+
